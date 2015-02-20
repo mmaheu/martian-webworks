@@ -1,0 +1,64 @@
+
+<div class="background-orbit">
+			
+			<ul class="example-orbit" data-orbit data-options="animation:slide; pause_on_hover:true; animation_speed:500; navigation_arrows:true; bullets:false;">
+				<li> 
+					<img src="/assets/escalade_lg.jpg" alt="slide 1" /> 
+					<div class="orbit-caption"> Escalade</div> 
+				</li> 
+				<li class="active"> 
+					<img src="/assets/escalade_lg.jpg" alt="slide 2" /> 
+					<div class="orbit-caption"> Town Car</div>
+				 </li>
+				<li> 
+					<img src="/assets/escalade_lg.jpg" alt="slide 3" />
+					<div class="orbit-caption" >Sprinter </div> 
+				</li>
+			</ul>		
+	<!-- </div> -->
+</div>	
+
+<div class="background-mid">
+<div class="row"> 
+	<div class="row">
+		<div class="small-6 large-4 columns"><h4></h4></div>
+		<div class="small-6 large-4 columns" align="center"><h4>Reservation</h4></div>
+		<div class="small-6 large-4 columns"><h4></h4></div>
+	</div>
+	 <div class="row">
+	<div class="small-6 columns">	
+	<%= form_tag("/reservation", method: "post") do %>
+		<%= datetime_local_field(:reservation, :pickup_time) %>
+		<%= datetime_local_field(:reservation, :pickup_time) %>
+		<%= datetime_local_field(:reservation, :pickup_time) %>	
+	</div>	
+
+	<div class="small-6 columns">
+		<%= datetime_local_field(:reservation, :pickup_time) %>
+		<%= datetime_local_field(:reservation, :pickup_time) %>
+		<%= datetime_local_field(:reservation, :pickup_time) %>
+		<% end %>
+    </div>
+	</div>
+	    <div class="row">
+			<div class="small-6 large-4 columns"><h4></h4></div>
+			<div class="small-6 large-4 columns" align="center"> <a href="#" class="button radius">Reserve</a></div>
+			<div class="small-6 large-4 columns"><h4></h4></div>
+		</div>	
+  </div>
+</div>
+
+
+<div class="row"> 
+	</hr>
+	<ul class="small-block-grid-2 large-block-grid-4">
+	    <li><img src="/assets/photo.jpg"></li>
+	    <li><img src="/assets/photo.jpg"></li>  
+	    <li><img src="/assets/photo.jpg"></li>
+	    <li><img src="/assets/photo.jpg"></li>   
+	</ul>
+</div> 
+
+
+
+

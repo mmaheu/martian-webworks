@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  destination: MyString
+  pickup_time: 2015-02-14 10:54:18
+  auto_type: MyString
+  email: MyString
+  phone: MyString
+
+two:
+  location: MyString
+  destination: MyString
+  pickup_time: 2015-02-14 10:54:18
+  auto_type: MyString
+  email: MyString
+  phone: MyString
